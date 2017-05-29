@@ -196,6 +196,7 @@
   "files": [
     "bin/",
     "dist/",
-    "lib/"
+    "lib/",
+    "src/"
   ]
 }
