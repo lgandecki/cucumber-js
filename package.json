@@ -185,7 +185,7 @@
     "prepublish": "yarn run build-local",
     "test": "yarn run lint && yarn run unit-test && yarn run feature-test",
     "unit-test": "mocha src",
-    "postinstall": "yarn run build-local"
+    "postinstall": "ls -al && pwd && babel src -d lib --ignore '**/*_spec.js'"
   },
   "bin": {
     "cucumber.js": "./bin/cucumber.js",
