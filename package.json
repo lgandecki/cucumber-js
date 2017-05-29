@@ -197,6 +197,7 @@
     "bin/",
     "dist/",
     "lib/",
-    "src/"
+    "src/",
+    ".babelrc"
   ]
 }
